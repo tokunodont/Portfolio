@@ -1,0 +1,57 @@
+:root {
+  --marge-left: 20px;
+}
+
+#Img{
+  width : 720px;
+  height : 480px;
+  margin-left:20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px;
+  background-color: #fff;
+}
+
+#movie01{
+  width : 720px;
+  height : 480px;
+  margin-left:10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: #fff;
+}
+
+#movie02{
+  width : 720px;
+  height : 480px;
+  margin-top:5px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  padding: 0px;
+  background-color: #fff;
+}
+
+#movie03{
+  width : 720px;
+  height : 480px;
+  margin-top:5px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  padding: 0px;
+  background-color: #fff;
+}
+
+#movie04{
+  width : 720px;
+  height : 480px;
+  margin-top:5px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  padding: 0px;
+  background-color: #fff;
+}
+
+video{
+  margin-top:0px;
+  margin-bottom: 0px;
+}

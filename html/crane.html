@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/WorksStyle.css">
+    <link rel="stylesheet" href="../css/Feel.css">
+    <script type="text/javascript" src=../js/jquery.min.js></script>
+    <script type="text/javascript" src=../js/ProfileScene.js></script>
+</head>
+
+<body>
+
+    <header>
+        <a id="Name" href="./mainScene.html">KeitoTakaishi</a>
+        <a id="About" href="./profileScene.html">About</a>
+    </header>
+
+    <div class="AppTitle">
+        クレーン操者体験ゲーム
+    </div>
+
+    <div class="Expression">
+        <p>
+            <!-- 作品説明 -->
+
+            <br>・制作期間 : 2019/10 ~ 2019/1　4ヶ月
+            <br>・メンバー : エンジニア1人 営業1人 デザイナー1人 モデラー1人
+            <br>・担当 : PL,見積,設計,開発,デバッグ,リリース
+            <br>・使用ライブラリ : Unity /カモメの群生のアセット/海アセット（unityデフォルト）
+            <br>・端末 : Windows
+            <br>・概要 : 神戸海洋博物館に納品された子供の職業体験用アプリ
+            <br>
+
+            <br>
+            <br>
+            <br> ・主要制作機能
+            <br>
+            <br>
+        </p>
+    </div>
+
+    <div class="BiwakoVideo" 　>
+        <video src="../video/Crane.mov" loop autoplay muted></video>
+    </div>
+
+    <div class="Expression">
+        <p>
+            <!-- 作品説明 -->
+            ・クレーン操作機能
+            <br>　CharacterControllerで制御しています。
+
+            <br>・当たり判定機能 :C#
+            <br>　操作性上コライダーが使えないので、OnTriggerEnterで処理をしています。
+            <br>・２画面調整機能 : bat
+            <br>　本番のディスプレイ２枚が大きさが異なるものだったためRenderTexutre２枚で調整しています。
+            <br>・全体のUIアニメーション : DoTween(C#)
+            <br>DoTween.Squenceでほぼ作成してます。マリオカートなど子供向けゲーム多数のUIを参考にしました。
+            <br> ・結果発表の光 Shader
+            <br> ・目的のオブジェクトの光　Shader+PostProcessStackV2
+            <br> ・Timer :C#
+            <br>
+        </p>
+    </div>
+
+    <div>
+        <video src="../video/gantry.mov" loop autoplay muted></video>
+    </div>
+
+    <div class="Expression">
+        <p>
+            <!-- 作品説明 -->
+            ・ユーザーのルートの記録　C#
+            　黒のTextureにサイドに設置したcameraから見たクレーンの移動を書きこんでます。
+            　軽い処理だったのでC#で済ませました。
+            <br><br><br>
+        </p>
+    </div>
+
+
+    <div class="Tools">
+        <h5>Tools</h5>
+        <p>Unity</p>
+    </div>
+
+</body>
+
+</html>
