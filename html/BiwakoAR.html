@@ -50,11 +50,11 @@
     <div class="Expression">
         <p>
             <!-- 作品説明 -->
-            ARオブジェクトの自由視点の制御 : C#<br>
-            <br>実は簡単に見えるのですが、GooglePolyのような全方向360度回転や並行移動はオブジェクトの周りを
-            <br>カメラに移動させることによって成り立っているので、AR空間ではそれが再現しづらいんです。
-            <br>ですが本アプリでは観たいARオブジェクトをAR空間の原点に指定してカメラを回転、
-            <br>移動させる方法を用いているので、ユーザーが使いやすい動きになっています。
+            ・ARオブジェクトの自由視点の制御 : C#
+            <br>GooglePolyのような全方向360度回転を再現しているのですが
+            <br>あのサービスはオブジェクトではなくカメラに移動させることによって成り立っているので、
+            <br>本アプリでは観たいARオブジェクトをAR空間の原点に指定してカメラを回転、
+            <br>移動させる方法を用いて、ユーザーの操作性を意識しています。
             <br>
             <br>海Shader : ShaderGraph ,Photshop<br>
             <br>Photshopで作成した画像を元にFadeさせてます。光はカメラにBloomをかけています。
@@ -70,7 +70,7 @@
     <div class="Expression">
         <p>
             <!-- 作品説明 -->
-            <br>AR出現エフェクト（ShaderGraphとBlenderで作成）　 : C#, ShaderGraph, Blender,Timeline
+            <br>・AR出現エフェクト: C#, ShaderGraph, Blender,Timeline
             <br>表示させる船にかなり細かいオブジェクトかつ大量のパーツがあったので、
             <br>それ自体にフェイド対応させるのはコストがかさんでしまう状況でした。
             <br>なので、UV値を持ったマスクオブジェクトを作成しそれに対してRenderTextureを投影し、
@@ -79,6 +79,22 @@
             <br><br><br>
         </p>
     </div>
+
+    <div class="BiwakoVideo">
+        <video src="../video/BiwakoAR5.mp4" loop autoplay muted></video>
+    </div>
+
+    <div class="Expression">
+        <p>
+            <!-- 作品説明 -->
+            <br> ・3Dボタンの常時最前面化 : Shader, ShaderGraph
+            <br> ShaderGraphはまだ普通のShaderで指定できるZTest等が指定できないので、
+            <br> 途中まで作成したShaderGraphをCode化して必要な箇所を修正することにより実現しております。
+            <br><br><br>
+        </p>
+    </div>
+
+
 
     <div class="BiwakoVideo">
         <video src="../video/BiwakoAR3.mov" loop autoplay muted></video>
@@ -94,6 +110,8 @@
             <br>
         </p>
     </div>
+
+
 
 
 
