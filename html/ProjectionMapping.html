@@ -25,7 +25,10 @@
             <br>・担当 : PL,見積,設計.開発.デバッグ,リリース
             <br>・使用ライブラリ : Unity / Vuforia / Dotween /AVpro
             <br>・端末 : iOS
-            <br>概要：日東電工のショールームアプリ　壁面をタッチすると動画が再生される
+            <br>概要：日東電工のショールームアプリ　
+            機能が2つあります。
+            ①平置きのタッチディスプレイから課題点を選択して、映像を見終わると壁面のプロジェクションマッピングに移行する機能
+            ②壁面をタッチすると動画が再生される機能
 
             <br>
             <br>
@@ -36,53 +39,69 @@
     </div>
 
     <div class="BiwakoVideo" 　>
-        <video src="../video/.mp4" loop autoplay muted></video>
+        <video src="../video/ProjectionMapping1.mp4" loop autoplay muted></video>
     </div>
 
     <div class="Expression">
         <p>
             <!-- 作品説明 -->
-            <br>・UDP通信＆シリアル通信　C#
-            <br>ディスプレイと壁面のPCはUDP通信　壁面のタッチセンサーと壁面PCは文字列をバイト変換して
-            　<br>非同期待機でのシリアル通信を実装してます
-            <br>
-            <br>
+            <br>・海の色 Shader
+            <br>・日光 : Shader
+            <br>・泡 : パーティクル
+            <br>・はじめのタイトルの揺らめき演出 : VertexShader
+            <br>・手紙の揺れる動き : VertexShader
+            <br>・手紙のゆっくりした動き : Dotween , C#
+            <br>・手紙の色 : Shader
+            <br>・手紙の復元無限ループ : C#
         </p>
     </div>
 
+
+
+
     <div class="BiwakoVideo">
-        <video src="../video/.mp4" loop autoplay muted></video>
+        <video src="../video/ProjectionMapping2.mp4" loop autoplay muted></video>
     </div>
 
     <div class="Expression">
         <p>
             <!-- 作品説明 -->
-            <br> ・デバッグ機能
-            <br> デバッグ用の画面とシステムも作成
+            <br> ・動画再生機能 : AVPro , C#
+            <br> ・クリックした後真ん中に行く動き Dotween,C#
+
+            <!-- <br> デバッグ用の画面とシステムも作成
             <br> ・Winsow2面出し　
-            <br>　batファイルで行ってます
+            <br>　batファイルで行ってます -->
             <br><br><br>
         </p>
     </div>
 
     <div>
-        <video src="../video/.mov" loop autoplay muted></video>
+        <video src="../video/ProjectionMapping4.mp4" width="900" loop autoplay muted></video>
+        <video src="../video/ProjectionMapping3.mp4" width="900" loop autoplay muted></video>
     </div>
+
 
     <div class="Expression">
         <p>
             <!-- 作品説明 -->
-            <br>・海の演出 Shader
-            <br>　日光 = Shader / 泡 = パーティクル
-
-            <br>・はじめのタイトルの揺らめき演出 VertexShader
-            <br>VertexShaderで作成
-            <br>・手紙の揺れる動き VertexShader　VertexShaderで作成
-            <br> ・手紙の色
-            <br>　Shaderで作成
+            <br>・UDP通信＆シリアル通信 :　C#
+            <br>　ディスプレイと壁面のPCはUDP通信　壁面のタッチセンサーと壁面PCは文字列をバイト変換して
+            <br>　非同期待機でのシリアル通信を実装してます
+            <br> デバッグ用の画面とシステムも作成
+            <br> ・Winsow2面出し :　bat
+            <br>　batファイルで行ってます
+            <br>
             <br>
         </p>
     </div>
+
+
+    <div>
+        <video src="../video/.mov" loop autoplay muted></video>
+    </div>
+
+
 
 
     <div class="Tools">
