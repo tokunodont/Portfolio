@@ -228,7 +228,7 @@ window.onload = function(){
       location.href = "Mystar.html";
   })
   $('#work-img03').click(function() {
-      location.href = "../html/MIX.html";
+      location.href = "../html/WhiteCube.html";
   })
   $('#work-img04').click(function() {
       location.href = "../html/VJ01.html";
